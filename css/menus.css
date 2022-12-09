@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+header {
+    
+    background-color: rgb(212, 135, 80);
+    
+}
+.box{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+#img-menu{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#lista-menu{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 100px;
+}
+#lista-menu li{
+    margin-right: 20px;
+    font-size: 40px;
+}
+#lista-menu a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: aliceblue;
+
+}
+
+
+footer {
+    text-align: center;
+    background: url("../img/istockphoto-1146367620-612x612.jpg");
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+#img-end{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

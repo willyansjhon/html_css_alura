@@ -1,0 +1,63 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+#teste {
+    color: blueviolet;
+}
+
+.enviar{
+    padding: 15px 0;
+    width: 40%;
+    background: orange;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    color: aliceblue;
+    transform: scale(1.1) rotate(10deg);
+    border-radius: 70%;
+    
+}
+
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px black solid;
+    padding: 8px 15px ;
+}
