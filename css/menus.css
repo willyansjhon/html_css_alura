@@ -55,3 +55,24 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+@media (max-width: 1008px) {
+    .box{
+        width: auto;
+        display: flow-root;
+    }
+    #lista-menu{
+        list-style: none;
+        text-transform: uppercase;
+        padding: 100px;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    #img-menu{
+        margin: auto;
+        display: block;
+    }
+}
+
+

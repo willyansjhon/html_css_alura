@@ -2,28 +2,94 @@ header{
     background-color: #c29973;
 }
 
+main {
+    padding: 50px;
+}
+.principal {
+    box-shadow: inset 0 0 30px rgb(165, 107, 107);
+}
 #title-page{
     color: rgb(95, 58, 29);
     text-align: center;
-    border: 20px red double;
+    border: 5px rgb(167, 141, 141) solid;
+    font-weight: bold;
+    font-size: 50px;
     padding: 20px;
+    text-shadow: 2px 2px #c29973;
 }
 
+.img-principal {
+    border-radius: 50%;
+    margin: 40px auto;
+    display: block;
+    padding: 20px 0;
+    box-shadow: 10px 10px black, -10px -10px purple, -20px -20px rgb(156, 127, 47);
+
+}
 
 p {
     font-size: 20px;
     text-align: center;
-    background-color: #c29973;
+    background-color: #f1f1f1;
+    margin-top: 20px;
 }
 
 #missao{
     color: brown;
 }
 
+.title-sobre-ze {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 50px 0;
+    text-shadow: 2px 2px rgb(150, 125, 125);
+}
+.sobre-ze {
+    display: flex;
+    
+    
+}
+.img-leite{
+    width: 400px;
+    height: 300px;
+    border-radius: 10% 10%;
+    margin-right: 20px;
+    opacity: 30%;
+    transition: 1s;
+}
+.img-leite:hover{
+    opacity: 100%;
+}
+.sobre-ze p {
+    color: aliceblue;
+    background: linear-gradient(orange,rgb(161, 84, 84), white);
+    border-radius: 10% 0;
+    padding: 50px;
+    opacity: 30%;
+    transition: 0.5s;
+}
+.sobre-ze p:hover {
+    opacity: 100%;
+}
+
+
+
+iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video-cafe {
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px black, -10px -10px red;
+}
+
 #titulo-secundario{
     color: #c29973;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    margin-top: 20px;
 }
 
 #lista-produtos{
@@ -32,5 +98,7 @@ p {
     list-style: none;
     font-size: 20px;
     padding: 20px;
-    width:100px;
-background-color: bisque;}
+    width:200px;
+    background-color: bisque;
+    margin-top: 20px;
+}
